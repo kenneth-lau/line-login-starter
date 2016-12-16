@@ -19,17 +19,17 @@ To use LINE Login, you must create a Channel for your website. For information o
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-With the "Deploy to Heroku" button, you can easily deploy the LINE Login starter application to Heroku right from your web browser by following the steps below. (For more details, see [Introducing Heroku Button](https://blog.heroku.com/archives/2014/8/7/heroku-button).)
+With the "Deploy to Heroku" button, you can easily deploy the LINE Login starter application to Heroku from your web browser by following the steps below.
 
 #### Heroku configuration
 
-1. Click the "Deploy to Heroku" button to go to the Heroku Dashboard to configure and deploy the app.
+1. Click the **Deploy to Heroku** button to go to the Heroku Dashboard to configure and deploy the app.
 2. Enter a Heroku app name (optional).
 3. Enter the following Heroku config variables.
     - **Channel ID:** Found on the "Basic information" page in the Channel Console
     - **Channel secret:** Found on the "Basic information" page in the Channel Console
     - **Callback URL:** https:// + "Heroku app name" + .herokuapp.com/auth
-4. Click the "Deploy" button. Heroku then deploys this repository to a new Heroku app on your account.
+4. Click the **Deploy** button. Heroku then deploys this repository to a new Heroku app on your account.
 
 #### Channel Console
 
