@@ -1,7 +1,7 @@
 # LINE Login Starter Application
 This is a starter application to help you get started on integrating the LINE Web Login feature into your website. Web Login lets users log in to your website using their LINE account. 
 
-## Getting started with LINE Login in Java on Heroku
+## Getting started with LINE Login in Java with Heroku
 Here we'll go through how you can implement Web Login on a web server using Spring Boot and Heroku.
 
 ### Requirements
