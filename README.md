@@ -13,7 +13,7 @@ Here we'll go through how you can implement Web Login on a web server using Spri
 
 ### Creating a Channel
 
-To use LINE Login, you must create a Channel for your website. For information on how to create a Channel, go to the [Creating a Channel](https://developers.line.me/web-api/channel-registration) on the LINE Developers site.   
+To use LINE Login, you must create a Channel for your website. For information on how to create a Channel, go to [Creating a Channel](https://developers.line.me/web-api/channel-registration) on the LINE Developers site.   
 
 ### Deploying the LINE Login starter application
 
