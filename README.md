@@ -26,8 +26,8 @@ With the "Deploy to Heroku" button, you can easily deploy the LINE Login starter
 1. Click the "Deploy to Heroku" button to go to the Heroku Dashboard to configure and deploy the app.
 2. Enter a Heroku app name (optional).
 3. Enter the following Heroku config variables.
-    - Channel ID: Found on your Channel's "Basic information" page in the Channel Console
-    - Channel secret: Found on your Channel's "Basic information" page in the Channel Console
+    - Channel ID: Found on the "Basic information" page in the Channel Console
+    - Channel secret: Found on the "Basic information" page in the Channel Console
     - Callback URL: https:// + "Heroku app name" + .herokuapp.com/auth
 4. Click the "Deploy" button. Heroku then deploys this repository to a new Heroku app on your account.
 
@@ -51,6 +51,7 @@ $ heroku login
 #### View logs
 - Clone the source of your existing application from Heroku using Git. For more details, see [Git Cloning Existing Heroku Applications](https://devcenter.heroku.com/articles/git-clone-heroku-app).
 - Use the `heroku logs` comamnd to fetch logs. For more details, see [View logs](https://devcenter.heroku.com/articles/logging#view-logs).
+
  ```
 $ heroku git:clone -a yourapp 
 $ heroku logs --tail
